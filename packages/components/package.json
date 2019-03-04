@@ -1,24 +1,24 @@
 {
-  "name": "components",
-  "version": "0.0.0",
-  "description": "> TODO: description",
-  "author": "davidsa <dsangel@gmail.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "webpack"
-  },
-  "dependencies": {
-    "react": "^16.8.3",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "@babel/preset-env": "^7.3.4",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5"
-  }
+    "name": "components",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "davidsa <dsangel@gmail.com>",
+    "homepage": "",
+    "license": "ISC",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: run tests from root\" && exit 1",
+        "dev": "webpack --watch"
+    },
+    "dependencies": {
+        "react": "^16.8.3",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.2.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.3.4",
+        "@babel/preset-env": "^7.3.4",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5"
+    }
 }
